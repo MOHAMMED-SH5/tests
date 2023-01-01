@@ -1,0 +1,655 @@
+
+@font-face {
+    font-family: Poppins;
+    src: url(./Poppins-Medium.ttf);
+}
+body::-webkit-scrollbar {
+    width: 7px;             
+    
+}
+body::-webkit-scrollbar-track {
+    background-color: #ebebeb	; 
+}
+  
+body::-webkit-scrollbar-thumb {
+    background: #33bbf1;  
+    border-radius: 20px;     
+    border-width: 2px;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+body
+{
+    font-family: 'Poppins';
+}
+p
+{
+    margin: 10px !important;
+}
+.allsection
+{
+    display: flex;
+    margin-top: 5%;
+}
+.se-one
+{
+    position: relative;
+}
+.se-one
+{
+    flex: 50%;
+}
+.se-two
+{
+    flex: 50%;  
+}
+.all-sec-two
+{
+    display: flex;
+}
+.one
+{
+    flex: 50%;
+}
+.two
+{
+    flex: 50%;
+}
+
+.peronalphoto
+{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    width: 38%;
+}
+
+.box
+{
+    background-color: #FFE00D;
+    padding-top: 50px;
+    height: 102vh;
+}
+.imfront
+{
+    background-image: url(../img/bgimg.png);
+    background-repeat: no-repeat;
+    height: 101vh;
+    padding-left: 5px;
+    width: 100%;
+    background-size: cover;
+}
+.name,.career,.spaclieze
+{
+    text-align: center;
+}
+.name
+{
+    padding-top:100%;
+    color: #222B45;
+    font-size: 24px;
+}
+.career
+{
+    color: #FC394D;
+    font-size: 32px;
+    font-weight: bold;
+}
+.spaclieze
+{
+    color: #222B45;
+    font-size: 24px;
+}
+.spaclieze
+{
+    color:#707070;
+    font-size: 16px;
+}
+.groupsocial
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle
+{
+    height: 35px;
+    width: 35px;
+    background-color: #B1B4BD;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 10px;
+}
+.fa-github,.fa-free-code-camp
+{
+    font-size: 24px;
+    padding: 5px;
+    color: white;
+}
+
+.codewars
+{
+    width: 100%;
+}
+
+.Reason
+{
+    color: #222B45;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+}
+.Developing
+{   
+    color:#707070;
+    font-size: 16px;
+    text-align: center;
+}
+.boxwhite
+{
+    background-color: white;
+    box-shadow: 5px 8px 8px 8px #DBF1FF;
+    margin-left: 20px;
+    font-size:20px; 
+}
+.contactbox
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-card
+{
+    height: 30vh;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+.text-box
+{
+    text-align: center;
+    margin-top: 0px !important;
+    color: #222B45;
+    font-size: 20px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+/* sec two */
+.Practicalexperience
+{
+    text-align: center;
+    color: #222B45;
+    font-size: 42px;
+    padding-top: 10%;
+}
+
+.textCorporate
+{
+    color: #222B45;
+    font-size: 24px;
+    padding-top: 15px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+.box-data-exprienses
+{
+    background-color: white;
+    box-shadow: 5px 8px 8px 8px #DBF1FF;
+    margin-left: 20px;
+    font-size:20px; 
+    border-left: 5px solid #FC4255;
+    margin-top: 30px;
+}
+.courses
+{
+    color: #222B45;
+    font-size: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.text-data-courses
+{
+    color: #222B45;
+    font-size: 16px;  
+    padding-bottom: 15px;
+}
+.box-data-Education
+{
+    background-color: white;
+    box-shadow: 5px 8px 8px 8px #DBF1FF;
+    margin-left: 20px;
+    font-size:20px; 
+    border-left: 5px solid #9863FB;
+    margin-top: 30px;
+}
+.EducationHistory
+{
+    color: #222B45;
+    font-size: 24px;
+    padding-top: 10px;
+}
+.ProgrammingSkilll
+{
+    color: #222B45;
+    font-size: 24px;
+    padding-left: 5px;
+    font-weight: bold;
+}
+.tiitel
+{
+    color: #222B45;
+    font-size: 17px;
+    font-weight: bold;  
+    margin-bottom: 0x !important;
+}
+.fa-one
+{
+    width: 100%;
+    background-color: white;
+    box-shadow: 3px 8px 8px 8px #DBF1FF;
+    margin-left: 10px;
+    margin-top: 18px;
+
+}
+.so-one
+{
+    width: 90%;
+    height: 25px;
+    color: white;
+    background-color: #9537F3;
+}
+
+
+.fa-two
+{
+    width: 100%;
+    background-color: white;
+    box-shadow: 3px 8px 8px 8px #DBF1FF;
+    margin-left: 10px;
+    margin-top: 18px;
+
+}
+.so-two
+{
+    width: 70%;
+    height: 25px;
+    color: white;
+    background-color: #FD3E51;
+}
+
+.fa-three
+{
+    width: 100%;
+    background-color: white;
+    box-shadow: 3px 8px 8px 8px #DBF1FF;
+    margin-left: 10px;
+    margin-top: 18px;
+
+}
+.so-three
+{
+    width: 80%;
+    height: 25px;
+    color: white;
+    background-color: #3B60FF;
+}
+
+
+.fa-four
+{
+    width: 100%;
+    background-color: white;
+    box-shadow: 3px 8px 8px 8px #DBF1FF;
+    margin-left: 10px;
+    margin-top: 18px;
+
+}
+.so-four
+{
+    width: 90%;
+    height: 25px;
+    color: white;
+    background-color: #FEAE22;
+}
+
+
+.fa-five
+{
+    width: 100%;
+    background-color: white;
+    box-shadow: 3px 8px 8px 8px #DBF1FF;
+    margin-left: 10px;
+    margin-top: 18px;
+
+}
+.so-five
+{
+    width: 90%;
+    height: 25px;
+    color: white;
+    background-color: #14D2D2;
+}
+
+.fa-six
+{
+    width: 100%;
+    background-color: white;
+    box-shadow: 3px 8px 8px 8px #DBF1FF;
+    margin-left: 10px;
+    margin-top: 18px;
+
+}
+.so-six
+{
+    width: 90%;
+    height: 25px;
+    color: white;
+    background-color: #9537F3;
+}
+
+.fa-seven
+{
+    width: 100%;
+    background-color: white;
+    box-shadow: 3px 8px 8px 8px #DBF1FF;
+    margin-left: 10px;
+    margin-top: 18px;
+
+}
+.so-seven
+{
+    width: 95%;
+    height: 25px;
+    color: white;
+    background-color: #FD3E51;
+}
+
+
+.fa-eight
+{
+    width: 100%;
+    background-color: white;
+    box-shadow: 3px 8px 8px 8px #DBF1FF;
+    margin-left: 10px;
+    margin-top: 18px;
+}
+.so-eight
+{
+    width: 85%;
+    height: 25px;
+    color: white;
+    background-color: #FEAE22;
+}
+.LanguageSkilll
+{
+    color: #222B45;
+    font-size: 24px;
+    padding-left: 5px;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+.text-langs
+{
+    color: #222B45;
+    font-size: 18px;
+    margin-top: 20px;  
+}
+.fa-star
+{
+    color: gold;
+    font-size: 25px;
+    margin-left: 10px;
+}
+/* sec three */
+.Portfolio
+{
+    color: #222B45;
+    font-size:24px;
+    font-weight: bold;
+    padding-top: 50px;  
+    text-align: center; 
+}
+.section-Portfolio
+{
+    display: flex;
+    justify-content: space-around;
+}
+.img-sec-profiles
+{
+    width: 100%;
+}
+/* sec four is empty */
+
+/* sec five */
+.maps
+{
+    position: relative;
+}
+.box-form
+{
+    background-color: white;
+    padding: 50px;
+    position: absolute;
+    top: 5%;
+    left:50%;
+}
+.GetTouch
+{
+    color: #222B45;
+    font-size:36px;
+    font-weight: bold;
+}
+.input-contactus
+{
+    width: 100%;
+    background-color: white;
+    box-shadow: 3px 8px 8px 8px #DBF1FF;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 10px;
+    border: 2px solid white;
+}
+::placeholder
+{
+    color: #333333;
+    font-family: Poppins;
+    font-size: 13px;
+}
+.sumbitbutton
+{
+    background-color: #FC394D;
+    text-align: center;
+    width: 110%;
+    border-radius: 20px;
+    color: white;
+    margin-top: 10px;
+    padding: 7px;
+    border: 2px solid #FC394D;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    body
+    {
+        overflow-x: hidden;
+        margin-left: 5%;
+    }
+    .allsection
+    {
+        display: grid;
+    }
+    .se-one
+    {
+        flex: 100%;
+    }
+    .se-two
+    {
+        flex: 100%;
+    }
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    body
+    {
+        overflow-x: hidden;
+        margin-left: 5%;
+    }
+    .allsection
+    {
+        display: grid;
+    }
+    .se-one
+    {
+        flex: 100%;
+    }
+    .se-two
+    {
+        flex: 100%;
+    }
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    body
+    {
+        overflow-x: hidden;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    .allsection
+    {
+        display: grid;
+    }
+    .se-one
+    {
+        flex: 100%;
+    }
+    .se-two
+    {
+        flex: 100%;
+        margin-top: 20%;
+    }
+    .name
+    {
+        padding-top:50%;
+        color: red;
+        font-size: 24px;
+    }
+    .PracticalFLEX
+    {
+        display: grid;
+        margin-top: 50px;
+    }
+    .one-sec-PracticalFLEx
+    {
+        width: 100%;
+    }
+    .two-sec-PracticalFLEx
+    {
+        width: 100%;
+    }
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    body
+    {
+        overflow-x: hidden;
+        margin-left: 3%;
+    }
+    .allsection
+    {
+        display: grid;
+    }
+    .se-one
+    {
+        flex: 100%;
+    }
+    .se-two
+    {
+        flex: 100%;
+        margin-top: 20%;
+    }
+    .name
+    {
+        padding-top:50%;
+        color: gold;
+        font-size: 24px;
+    }
+    .PracticalFLEX
+    {
+        display: grid;
+        margin-top: 50px;
+    }
+    .one-sec-PracticalFLEx
+    {
+        width: 100%;
+    }
+    .two-sec-PracticalFLEx
+    {
+        width: 100%;
+    }
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    body
+    {
+        overflow-x: hidden;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    .allsection
+    {
+        display: flex;
+    }
+    .se-one
+    {
+        flex: 50%;
+    }
+    .se-two
+    {
+        flex: 50%;
+        margin-top: 0%;
+    }
+    .name
+    {
+        padding-top:60%;
+        color: gold;
+        font-size: 24px;
+    }
+    .PracticalFLEX
+    {
+        display: flex;
+    }
+    .one-sec-PracticalFLEx
+    {
+        width: 70%;
+    }
+    .two-sec-PracticalFLEx
+    {
+        width: 30%;
+        padding-left: 15px;
+    }
+  }
